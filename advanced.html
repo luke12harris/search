@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+            <!-- Required meta tags -->
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
+    
+            <!--Bootstrap CSS-->
+            <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+            
+            <!--Style Sheet-->
+            <link rel="stylesheet" type="text/css" href="stylesheet.css">
+
+            <title>Google Advanced Search</title>
+</head>
+<body style="font-family: arial,sans-serif;">
+    <header>
+        <div class="links">
+            <div>
+                <a class="links" href="index.html">Google Search</a>
+            </div>
+        </div>
+    </header>
+
+    <h1 style="color: #d93025; margin: 25px; font-size: 20px; font-family: arial,sans-serif;">Advanced Search</h1> 
+    <hr style="border-bottom: 1px solid #ffffff;">
+    
+    <!--All these words: as_q
+        This exact word or phrase: as_epq
+        Any of these words: as_oq
+        None of these words: as_eq-->
+    
+    <h4 style="text-align: right; position: relative;">
+        <span style="left:0; position: absolute; padding-left: 25px">Find pages with...</span>
+        <span style="padding-right: 25px;">To do this in the search box.</span>
+    </h4>
+
+    <form id="asForm" action="https://www.google.com/search">
+        
+        <label for ="atw_ent" class="asLabels">all these words:</label>
+        <input id="atw_ent" class="asInputs" type="text" name="as_q">
+        <label for="atw_ent" class="asToDo">Type the important words: tri-colour rat terrier</label>
+
+        <label for ="tewop_ent" class="asLabels">this exact word or phrase:</label>
+        <input id="tewop_ent" class="asInputs" type="text" name="as_epq">
+        <label for="tewop_ent" class="asToDo">Put exact words in quotes: "rat terrier"</label>
+
+        <label for ="aotw_ent" class="asLabels">any of these words:</label>
+        <input id="aotw_ent" class="asInputs" type="text" name="as_oq">
+        <label for="aotw_ent" class="asToDo">Type OR between all the words you want: miniature OR standard</label>
+
+        <label for ="notw_ent" class="asLabels">none of these words:</label>
+        <input id="notw_ent" class="asInputs"type="text" name="as_eq">
+        <label for="notw_ent" class="asToDo">Put a minus sign just before words that you don't want: -rodent, -"Jack Russell"</label>
+
+        <input id="asSubmit" type="submit" value="Advanced Search" > 
+    </form>  
+
+</body>
+</html>

@@ -1,0 +1,133 @@
+.logo {
+    display: block;
+    margin: 0 auto;
+    margin-top: 125px;
+}
+#searchEntry {
+    border: 1px solid #999999;
+    border-radius: 50px;
+    border-color: #DFE1E5;
+    width: 145mm;
+    height: 10mm;
+    padding: 25px;
+    margin: 5px;
+}
+
+#searchEntry:focus {
+    outline: none;
+}
+
+.buttons {
+    border: 1px solid white;
+    border-radius: 5px;
+    background-image: (linear-gradient(#f1f1f1, #f8f8f8));
+    
+    width: 38mm;
+    height: 10mm;
+    color: #5F6368;
+    align-items: center;
+
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+
+    margin-top: 25px;
+    margin-left: 5px;
+    margin-right: 5px;
+    
+}
+
+.buttons:hover{
+    color: #222222;
+    border: 1px solid #999999
+}
+#imageButton{
+    border: 1px solid white;
+    border-radius: 5px;
+    background-image: (linear-gradient(#f1f1f1, #f8f8f8));
+    
+    width: 60mm;
+    height: 10mm;
+    color: #5F6368;
+    align-items: center;
+
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+
+    margin-top: 25px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#imageButton:hover{
+    color: #222222;
+    border: 1px solid #999999
+}
+
+.s_i {
+    text-align: center;
+}
+
+.links {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: right;
+
+    padding: 10px;
+    color: #000000;
+}
+
+.links:hover{
+    color: #5F6368;
+}
+
+#asForm{
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-gap: 15px;
+    padding-left: 25px;
+}
+
+.asLabels {
+    grid-column: 1 /2;
+}
+
+.asInputs{
+    grid-column: 2 / 3;
+    border-color: 1px gainsboro;
+    height: 25px;
+    width: 142mm;
+    font-size: 13px;
+    padding: 1px 8px;
+    border-color: 1px solid #999999;
+    
+}
+.asInputs:focus{
+    outline: none;
+    border: 1px solid royalblue;
+}
+
+
+.asToDo{
+    grid-column: 3 / 4;
+    padding-right: 15px;
+}
+
+#asSubmit{
+    border-radius: 3px;
+    width: 150px;
+    height: 30px;
+    grid-column: 2 / 3;
+    text-align: center;
+    color: white;
+    background-color: cornflowerblue;
+    border: 1px solid white;
+}
+#asSubmit:hover{
+    border: 1px solid royalblue;
+    background-color: 1px solid darkblue;
+    
+}
